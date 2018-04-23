@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Portrait.css';
+import '../stylesheets/Portrait.css';
 
 class Portrait extends Component {
   render() {
