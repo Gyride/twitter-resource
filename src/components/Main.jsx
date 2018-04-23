@@ -19,6 +19,20 @@ class Main extends Component {
         position: "CTO",
         company: "PornHub",
         email: "TimBlake17x@gmail.com"
+      },
+      "2" : {
+        pic: "",
+        name: "Sebastian Jaramillo",
+        position: "CTO",
+        company: "Valve",
+        email: "Sebast.Jar@gmail.com"
+      },
+      "3" : {
+        pic: "",
+        name: "Tim Blake",
+        position: "CTO",
+        company: "PornHub",
+        email: "TimBlake17x@gmail.com"
       }
     };
   }
@@ -27,9 +41,10 @@ class Main extends Component {
     const Profiles = [];
     Object.values(this.state).map(function(data, i) {
       Profiles.push(<Profile profile={data} key={i}/>);
+      return null;
     });
     return (
-      <div className="profiles">
+      <div className="ProfileContainer">
         {Profiles}
       </div>
     )

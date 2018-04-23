@@ -9,9 +9,10 @@ class Profile extends Component {
 
   render() {
     return (
-      <div className="Portrait">
-        <img src={this.props.profile.pic}/>
-        <span>{this.props.profile.name}, {this.props.profile.position} of {this.props.profile.company}</span>
+      <div className="Profile">
+        <img src={this.props.profile.pic} alt="ProfilePicture"/>
+        <span>{this.props.profile.name}</span>
+        <span>{this.props.profile.position} of {this.props.profile.company}</span>
         <span>{this.props.profile.email}</span>
       </div>
     );
