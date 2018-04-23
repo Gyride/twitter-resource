@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import '../stylesheets/App.css';
+import '../stylesheets/Main.css';
 
-class App extends Component {
+class Main extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="Main">
         <h1>App</h1>
         <input type="text" name="name-entry" placeholder="Company name" />
         <button>Search</button>
@@ -13,4 +13,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Main;
