@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 .ProfileContainer {
-    height: 590px;
-    margin: 40px auto;
+    height: 50vh;
+    margin: 40px auto 0;
     border-radius: 5px;
     background-color: #232324;
     overflow-y: auto;
@@ -14,25 +16,28 @@
 
 .ProfileContainer .Profile {
     width: 30%;
-    min-height: 400px;
-    margin: 20px 1.5%;  
+    height: 150px;
+    margin: 20px 1.5%;
     padding: 15px;
     border: 2px #ed1b24 solid;
     border-radius: 5px;
     background-color: #ed1b24;
     float: left;
+    font-family: "Roboto Slab", sans-serif;
 }
 
 .ProfileContainer .Profile img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
+    margin-right: 10px;
     border-radius: 5px;
+    float: left;
 }
 
 .ProfileContainer .Profile span {
     display: block;
     margin: 5px 0;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 ::-webkit-scrollbar {
@@ -46,12 +51,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ed1b24; 
-    -webkit-box-shadow: inset 0 0 6px #1c1c1c; 
+    background: #ed1b24;
+    -webkit-box-shadow: inset 0 0 6px #1c1c1c;
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
-	background: #ed1b24; 
+	background: #ed1b24;
 }
